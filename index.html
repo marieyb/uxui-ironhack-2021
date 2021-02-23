@@ -5,41 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- start - header -->
     <header>
-        <div>logo</div>
-        <div>menu</div>
-        <div>login icon</div>
+        <div>
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
+        </div>
+        <div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="https://www.ironhack.com">Buy Now</a>
+            </nav>
+        </div>
+        <div>
+            <a href="#">Login</a>
+            <a href="#">Icon</a>
+        </div>
     </header>
     <!-- end - header -->
 
     <!-- start - hero -->
-    <section>
+    <section id="hero">
         <h1>Heading 1</h1>
         <h4>This is a Heading 4.</h4>
-        <button>This is a button</button>
+        <button class="btn-large">This is a button</button>
     </section>
     <!-- end - hero -->
 
     <!-- start - cards -->
     <section>
         <!-- start - card 1 -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/hello-i-m-nik-UNCQklgSUd4-unsplash.jpg" alt="This is an image of legos holding a straw">
             <h3>Card Title</h3>
             <p>Description</p>
             avatar
             author
+            <button>Click me</button>
         </div>
         <!-- end - card 1 -->
 
         <!-- start - card 2 -->
-         <div>
-            <img src="" alt="">
+         <div class="card">
+            <img src="img/lee-yan-SF07ZPPR6Y0-unsplash.jpg" alt="">
             <h3>Card Title</h3>
             <p>Description</p>
             avatar
@@ -48,8 +64,8 @@
         <!-- end - card 2 -->
 
         <!-- start - card 3 -->
-         <div>
-            <img src="" alt="">
+         <div class="card">
+            <img src="img/matt-reiter-0olqNrsoiY8-unsplash.jpg" alt="">
             <h3>Card Title</h3>
             <p>Description</p>
             avatar
@@ -60,6 +76,25 @@
 
     </section>
     <!-- end - cards -->
+
+    <!-- start - about -->
+    <section id="about">
+        About
+    </section>
+    <!-- end - about -->
+
+    <!-- start - contact -->
+    <section id="contact">
+        Contact        
+    </section>
+    <!-- end - contact -->
+
+    <!-- start - footer -->
+    <footer>
+        Here is the footer.
+    </footer>
+    <!-- end - footer -->
+
 
 
 

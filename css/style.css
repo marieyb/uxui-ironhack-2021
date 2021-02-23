@@ -1,18 +1,37 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
 
 h1 {
-    color:peru;
+    color:white;
+    font-size: 5.653rem;
+}
+
+h2{
+    font-size: 3.998rem;
+}
+
+h3 {
+    color:blue;
+    font-size: 2.827rem;
 }
 
 h4 {
     color:chocolate;
+    font-size: 1.999rem;
 }
 
-
-h3 {
-    color:blue;
+h5{
+    font-size: 1.414rem;
 }
 
+h6{
+    
+}
 
 header{
     background-color: darkgray;
@@ -21,4 +40,55 @@ header{
 div{
     /* border: solid 1px yellow;
     width: 100px; */
+}
+
+button{
+    background-color: navy;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-large{
+    width:300px;
+    height: 80px;
+    font-size: 21px;
+}
+
+
+.card{
+    background-color:lavender;
+    padding: 20px;
+    border: 2px solid red;
+    width: 250px;
+    margin: 50px 30px 10px 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.logo-header{
+    width: 100px;
+}
+
+#hero{
+    height: 100vh;
+    /* background-color: tomato; */
+    text-align: center;
+    background-image: url('../img/hello-i-m-nik-UNCQklgSUd4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#about{
+    height: 50vh;
+}
+
+#contact{
+    height: 50vh;
+}
+
+footer{
+    height: 50vh;
 }
