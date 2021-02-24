@@ -11,10 +11,11 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- start - header -->
-    <header>
+    <header class="container">
         <div>
             <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
         </div>
@@ -26,14 +27,14 @@
             </nav>
         </div>
         <div>
-            <a href="#">Login</a>
-            <a href="#">Icon</a>
+            <a href="#"><i class="far fa-user-circle fa-2x"></i></a>
+            <a href="#"><i class="fas fa-search fa-2x"></i></a>
         </div>
     </header>
     <!-- end - header -->
 
     <!-- start - hero -->
-    <section id="hero">
+    <section id="hero" class="container">
         <h1>Heading 1</h1>
         <h4>This is a Heading 4.</h4>
         <button class="btn-large">This is a button</button>
@@ -41,12 +42,13 @@
     <!-- end - hero -->
 
     <!-- start - cards -->
-    <section>
+    <section id="card" class="container">
         <!-- start - card 1 -->
         <div class="card">
             <img src="img/hello-i-m-nik-UNCQklgSUd4-unsplash.jpg" alt="This is an image of legos holding a straw">
             <h3>Card Title</h3>
-            <p>Description</p>
+            <p>Description description description description Second paragraph</p>
+            <p>Second paragraph</p>
             avatar
             author
             <button>Click me</button>
@@ -85,13 +87,55 @@
 
     <!-- start - contact -->
     <section id="contact">
-        Contact        
+
+        <h3>Let's connect</h3>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email">
+
+        <br><br>
+
+        <input type="checkbox" id="terms" checked>
+        <label for="checkbox">I accept the terms and conditions.</label>
+
+        <br><br>
+
+        <label for="date">Starting date</label>
+        <input type="date" id="date">
+
+        <br><br>
+
+        <label for="document">Add your document</label>
+        <input type="file" id="document">
+
+        <br><br>
+
+        <label for="password">Create a password</label>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <label for="mobile">Your phone number</label>
+        <input type="tel" id="mobile">
+
+        <br><br>
+
+        <input type="submit" value="Send all this info">
+
     </section>
     <!-- end - contact -->
 
     <!-- start - footer -->
     <footer>
-        Here is the footer.
+        <p>Follow me!</p>
+        <i class="fab fa-behance fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-medium fa-2x"></i>
+        <i class="fab fa-linkedin fa-2x"></i>
     </footer>
     <!-- end - footer -->
 
