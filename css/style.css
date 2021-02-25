@@ -2,6 +2,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto Slab', serif;
     margin-block: 0.2rem;
@@ -9,7 +14,8 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     color:white;
-    font-size: 5.653rem;
+    /* font-size: 5.653rem; */
+    font-size: 3rem;
 }
 
 h2{
@@ -114,4 +120,71 @@ footer{
 
 .container {
     display: flex; /* or inline-flex */
+  }
+
+  /* LINKS */
+  a:link, a:visited{
+      background-color: darkblue;
+      text-decoration: none;
+      padding: 10px;
+  }
+
+  a:hover{
+      background-color: darkcyan;
+  }
+
+  a:active{
+      background-color: darkorange;
+  }
+
+  /* menu links */
+  a.menu:link, a.menu:visited{
+      background: none;
+      color: gold;
+  }
+  
+  a.menu:hover{
+      color:darkred;
+  }
+
+  /* section div h3{
+    border: 2px dashed blue;
+  } */
+
+  /* icon links */
+   a.icon:link{
+      background-color: transparent;
+  }
+
+   a.icon:hover{
+      background-color: darkviolet;
+      color:ghostwhite;
+      border-radius: 50%;
+  }
+
+  img{
+      filter:contrast(100%);
+      filter:grayscale(50%);
+      filter:saturate(200%);
+  }
+
+
+  /* ------------------------------------ */
+  /* ------------------------------------ */
+  /* TABLET */
+  @media only screen and (min-width: 600px) and (max-width: 767px){
+    h1{
+        background-color: blue;
+        font-size: 4.653rem;
+    }  
+  }
+
+  /* ------------------------------------ */
+  /* ------------------------------------ */
+  /* DESKTOP */
+  @media only screen and (min-width: 768px){
+    h1{
+        background-color: darkmagenta;
+        font-size: 5.653rem;
+    }
   }
